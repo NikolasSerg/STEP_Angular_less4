@@ -1,0 +1,13 @@
+<div>
+  blog-list works!
+</div>
+<app-blog-item *ngFor="let item of postArr.reverse()" [post] = "item"></app-blog-item>
+<br>
+<hr>
+<br>
+<input type="text" placeholder="title" [(ngModel)]="title"><br>
+<input type="text" placeholder="post" [(ngModel)]="post"><br>
+<input type="text" placeholder="author" [(ngModel)]="author">
+
+<br>
+<button (click)="pushArr($event)">press</button>
