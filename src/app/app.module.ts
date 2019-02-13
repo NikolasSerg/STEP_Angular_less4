@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogItemComponent } from './blog-item/blog-item.component';
+import { IndataComponent } from './indata/indata.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BlogListComponent,
-    BlogItemComponent
+    BlogItemComponent,
+    IndataComponent
   ],
   imports: [
     BrowserModule,
