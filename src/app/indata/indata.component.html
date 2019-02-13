@@ -1,0 +1,7 @@
+<p>component inData work's</p>
+<input type="text" placeholder="title" [(ngModel)]="title"><br>
+<input type="text" placeholder="post" [(ngModel)]="post"><br>
+<input type="text" placeholder="author" [(ngModel)]="author">
+<br>
+<hr>
+<app-blog-list [title]="title" [post]="post" [author]="author"></app-blog-list>
