@@ -8,6 +8,10 @@ import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogItemComponent } from './blog-item/blog-item.component';
 // import { IndataComponent } from './indata/indata.component';
 import { AddpostComponent } from './addpost/addpost.component';
+import { AuthComponent } from './auth/auth.component';
+import { LoginFormComponent } from './login-form/login-form.component';
+import { LoginListComponent } from './login-list/login-list.component';
+import { ProfilesComponent } from './profiles/profiles.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { AddpostComponent } from './addpost/addpost.component';
     BlogListComponent,
     BlogItemComponent,
     // IndataComponent,
-    AddpostComponent
+    AddpostComponent,
+    AuthComponent,
+    LoginFormComponent,
+    LoginListComponent,
+    ProfilesComponent
   ],
   imports: [
     BrowserModule,
