@@ -9,11 +9,11 @@ export class BlogListComponent implements OnInit {
   constructor() {
   }
 
+  postArr: [{ title: string, post: string, author: string}] = [];
+
   updateList(postArr: {title: string, post: string, author: string}) {
     this.postArr.push(postArr);
   }
-
-  postArr: [{ title: string, post: string, author: string}] = [];
   //
   // pushArr() {
   //   console.log(this.title, ' - this.title');

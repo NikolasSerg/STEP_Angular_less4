@@ -1,0 +1,13 @@
+<button (click)="showFailLog()">{{btnInfo}}</button>
+<div *ngIf="failLoged.length > 0 && btnInfo === 'close'">
+
+  <div *ngFor="let item of failEnter">
+    <p>wrong login - {{item.login}}</p>
+    <p>wrong password - {{item.password}}</p>
+    <p>date - {{item.date}}</p>
+  </div>
+  <button (click)="clearListFun()">clear list</button>
+  <!--<p>{{failLoged[0].login}}</p>-->
+</div>
+<p></p>
+<hr>

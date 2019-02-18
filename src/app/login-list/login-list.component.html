@@ -1,3 +1,6 @@
 <p>
   login-list works!
 </p>
+<app-login-form (onlogIn)="tryLogin($event)" [rezult]="rezult"></app-login-form>
+<app-fail-list [failLoged]="failLog" [rezult] = "rezult" (onClearList)="clearFailListUsers($event)"></app-fail-list>
+
